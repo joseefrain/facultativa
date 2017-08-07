@@ -1,0 +1,55 @@
+header{
+    /*es el color completo de todo el header*/
+background-color: black;
+/*color es el color interno de las letras*/
+color: white;
+/*padin es el espacio interno de las letras*/
+padding: 2em;
+
+
+}
+
+h1{
+    
+    color:orangered;
+    margin: 0;
+
+}
+
+h4{
+
+    margin: 0;
+
+}
+
+
+.detalle {
+    font-size: 1.4em}
+
+    button{
+        color: black;
+        border-radius:  50px;
+        height: 3em;
+        width: 250px;
+        background-color: yellow;
+        font-size: 1.2em;  
+    }
+button:hover{
+    background-color: white;
+}
+
+li{
+    display: inline-block;
+    padding-right:25px;
+
+}
+a{
+    text-decoration: none;
+    font-size: 1.5em;
+    
+}
+nav{
+    background-color: orangered;
+    padding:  1em;
+    text-align: right;
+}
