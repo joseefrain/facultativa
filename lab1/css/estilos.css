@@ -53,3 +53,8 @@ nav{
     padding:  1em;
     text-align: right;
 }
+
+nav ul a:hover {
+    background: #bbdefb;
+    color: black;
+}
