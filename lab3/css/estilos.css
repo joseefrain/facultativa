@@ -28,3 +28,8 @@ nav ul a:hover {
     background: #bbdefb;
     color: black;
 }
+
+.parallax-container{
+    height: 250px;
+
+}
