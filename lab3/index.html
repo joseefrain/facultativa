@@ -18,16 +18,16 @@
         <a href="#" class="brand-logo">EFRAIN</a>
         <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Contactos</a></li>
-          <li><a href="#">Noticias</a></li>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contactos">Contactos</a></li>
+          <li><a href="#noticias">Noticias</a></li>
         </ul>
         <ul class="side-nav" id="mobile-menu">
-         <li><a href="#">Inicio</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Contactos</a></li>
-          <li><a href="#">Noticias</a></li>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contactos">Contactos</a></li>
+          <li><a href="#noticias">Noticias</a></li>
         </ul>
       </div>
     </nav>
@@ -35,7 +35,7 @@
 
 
   <!--Incio del Slider MZ-Slider-->
- <div class="slider">
+ <div class="slider menu" id="inicio">
    <ul class="slides">
      <li>
        <img src="img/imagen1.jpg" alt=""> <!-- random image -->
@@ -74,7 +74,7 @@
 
   <!--Seccion de servicios-->
   <!--Siempre debe aber un rouw para agregar las colunas-->
-<section class="row">
+<section class="row menu" id="servicios">
 <h2 class="center-align">Servicios</h2>
 <p class="center-align blue-text">Estos son nuestros servicios para usted</p>
 <!--Primer articulo una columna-->
@@ -108,7 +108,7 @@
 
 <!--Segunda seccion Contacto-->
 
-<section class="row">
+<section class="row menu" id="contactos">
 
   <h2 class="center-align">Contacto</h2>
    <p class="center-align blue-text">Envienos sus comentarios</p>
@@ -155,7 +155,10 @@
   <div class="parallax"><img src="img/imagen5.jpg"></div>
 </div>
 
-<section class="row"> 
+
+
+<!--Seccion 1-->
+<section class="row menu" id="noticias"> 
    <h2 class="center-align">Noticias</h2>
    <p class="center-align blue-text">Ven y descubre lo nuevo en tecnoligia</p>
 
@@ -253,6 +256,7 @@
       $(".dropdown-button").dropdown();
        $('.slider').slider({height:250});
        $('.parallax').parallax();
+       $('.menu').scrollSpy();
     })
   </script>
 </body>
